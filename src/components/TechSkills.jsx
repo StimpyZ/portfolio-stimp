@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 
 export default function TechSkills ({ technology, custom }) {
 
+    console.log(technology)
+
     const projectVariant = {
 
         hidden: { opacity: 0, y: 50 },
@@ -29,7 +31,7 @@ export default function TechSkills ({ technology, custom }) {
             viewport={{ once: true, amount: 0.5 }}>
             <img
                 className="w-16 h-16 mx-auto my-2"
-                src={`../../src/assets/tech/${technology.icon}.png`} alt={`Imagen de ${technology.name}`}
+                src={`/tech/${technology.icon}.png`} alt={`Imagen de ${technology.name}`}
                 onLoad={handleImageLoad}
                 style={{ opacity: '0' }}
             />
