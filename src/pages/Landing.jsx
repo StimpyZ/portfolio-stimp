@@ -26,7 +26,7 @@ export default function Landing ({ setSelectedPage }) {
                     : (
                         <img
                             className="hover:filter hover:saturate-200 duration-500 z-10 w-full max-w-[400px]"
-                            src="/assets/profile-image.png"
+                            src="/assets/profile-image.webp"
                             alt="profile"
                         />
                     )}
