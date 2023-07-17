@@ -35,16 +35,20 @@ export default function Skills () {
                         ? (
                             <div className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10 before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]">
                                 <img
+                                    width='705px'
+                                    height='271px'
                                     className="z-10 w-[705px] h-[271px] object-cover"
-                                    src="/assets/skills-image.jpg"
+                                    src="/assets/skills-image.webp"
                                     alt="skills"
                                 />
                             </div>
                         )
                         : (
                             <img
+                                width='705px'
+                                height='271px'
                                 className="z-10 w-[705px] h-[271px] object-cover"
-                                src="/assets/skills-image.jpg"
+                                src="/assets/skills-image.webp"
                                 alt="skills"
                             />
                         )}

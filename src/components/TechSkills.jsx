@@ -28,8 +28,10 @@ export default function TechSkills ({ technology, custom }) {
             transition={transition}
             viewport={{ once: true, amount: 0.5 }}>
             <img
+                width='64px'
+                height='64px'
                 className="w-16 h-16 mx-auto my-2"
-                src={`/tech/${technology.icon}.png`} alt={`Imagen de ${technology.name}`}
+                src={`/tech/${technology.icon}.webp`} alt={`Imagen de ${technology.name}`}
                 onLoad={handleImageLoad}
                 style={{ opacity: '0' }}
             />

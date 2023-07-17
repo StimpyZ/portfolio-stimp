@@ -31,7 +31,7 @@ export default function Project ({ project, custom }) {
                     <a href={project.link1} target='_blank' rel='noreferrer' className='bg-deep-blue hover:text-red transition duration-500 flex items-center justify-center font-playfair w-1/2 text-white cursor-pointer'>View code</a>
                 </div>
             </div>
-            <img src={`/assets/${project.icon}.jpg`} alt={`Imagen del proyecto ${project.title}`} className='h-[400px] w-[400px] object-cover'/>
+            <img width='400px' height='400px' src={`/assets/${project.icon}.webp`} alt={`Imagen del proyecto ${project.title}`} className='h-[400px] w-[400px] object-cover'/>
         </motion.div>
     )
 

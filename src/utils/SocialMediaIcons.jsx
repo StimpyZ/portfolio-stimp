@@ -10,8 +10,10 @@ export default function SocialMediaIcons () {
                 rel='noreferrer'
             >
                 <img
+                    width='24px'
+                    height='24px'
                     className='w-6 h-6'
-                    src='/assets/linkedin.png'
+                    src='/assets/linkedin.webp'
                     alt='linkedin'
                 />
             </a>
@@ -22,8 +24,10 @@ export default function SocialMediaIcons () {
                 rel='noreferrer'
             >
                 <img
+                    width='24px'
+                    height='24px'
                     className='w-6 h-6'
-                    src='/assets/facebook.png'
+                    src='/assets/facebook.webp'
                     alt='linkedin'
                 />
             </a>
@@ -34,8 +38,10 @@ export default function SocialMediaIcons () {
                 rel='noreferrer'
             >
                 <img
+                    width='24px'
+                    height='24px'
                     className='w-6 h-6'
-                    src='/assets/github.png'
+                    src='/assets/github.webp'
                     alt='linkedin'
                 />
             </a>

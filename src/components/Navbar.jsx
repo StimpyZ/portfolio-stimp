@@ -43,7 +43,7 @@ export default function Navbar ({ isTopPage, selectedPage, setSelectedPage }) {
                             className='rounded-full bg-red p-2'
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                         >
-                            <img src='/assets/menu-icon.svg' alt='menu'/>
+                            <img width='24px' height='24px' src='/assets/menu-icon.svg' alt='menu'/>
                         </button>
                     )}
 
@@ -51,7 +51,7 @@ export default function Navbar ({ isTopPage, selectedPage, setSelectedPage }) {
                     <div className='fixed right-0 bottom-0 h-full bg-indigo-400 w-[300px] '>
                         <div className='flex justify-end p-12'>
                             <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                                <img src='/assets/close-icon.svg'/>
+                                <img width='24px' height='24px' src='/assets/close-icon.svg'/>
                             </button>
                         </div>
 
