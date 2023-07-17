@@ -33,7 +33,7 @@ module.exports = {
                 quicksand: ['Quicksand', 'sans-serif']
             },
             content: {
-                brush: "url('./src/img/brush.png')"
+                brush: "url('./assets/brush.png')"
             }
         },
         screens: {

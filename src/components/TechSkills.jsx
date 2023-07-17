@@ -2,8 +2,6 @@ import { motion } from 'framer-motion'
 
 export default function TechSkills ({ technology, custom }) {
 
-    console.log(technology)
-
     const projectVariant = {
 
         hidden: { opacity: 0, y: 50 },
