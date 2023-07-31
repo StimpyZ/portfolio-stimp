@@ -105,7 +105,7 @@ export const projects = [
         title: 'Fast Food Kiosk',
         icon: 'project6',
         description: 'Efficient Next.js app for fast food kiosks. Utilizes Tailwind CSS, SWR, Prisma, MySQL. Seamless interface, optimal performance.',
-        link1: 'https://github.com/StimpyZ/quiosco-app',
+        link1: 'https://quiosco-app-production-64c1.up.railway.app/',
         link2: 'https://github.com/StimpyZ/quiosco-app'
     },
     {
