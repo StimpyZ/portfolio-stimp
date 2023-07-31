@@ -91,8 +91,8 @@ export const projects = [
         title: 'Project Management App',
         icon: 'project4',
         description: 'Efficient MERN project management app with JWT authentication and protected routes. Seamless project creation, editing, and tracking. User-friendly experience.',
-        link1: '',
-        link2: ''
+        link1: 'https://github.com/StimpyZ/administrador-proyectos-front-end',
+        link2: 'https://github.com/StimpyZ/administrador-proyectos-backend'
     },
     {
         title: 'Django Dashboard',
@@ -105,7 +105,7 @@ export const projects = [
         title: 'Fast Food Kiosk',
         icon: 'project6',
         description: 'Efficient Next.js app for fast food kiosks. Utilizes Tailwind CSS, SWR, Prisma, MySQL. Seamless interface, optimal performance.',
-        link1: 'https://quiosco-app-production-0e38.up.railway.app/',
+        link1: 'https://github.com/StimpyZ/quiosco-app',
         link2: 'https://github.com/StimpyZ/quiosco-app'
     },
     {
