@@ -30,6 +30,10 @@ export default function Project ({ project, custom }) {
                     <a href={project.link1} target='_blank' rel='noreferrer' className='bg-gradient-rainblue text-deep-blue rounded-sm py-3 font-semibold hover:bg-blue hover:text-white transition duration-500 ease-in-out w-1/2 cursor-pointer'>View demo</a>
                     <a href={project.link1} target='_blank' rel='noreferrer' className='bg-deep-blue hover:text-red transition duration-500 flex items-center justify-center font-playfair w-1/2 text-white cursor-pointer'>View code</a>
                 </div>
+                <div className='mt-2 text-center'>
+                    <p>Demo correo: <span className='font-semibold'>{project.user}</span></p>
+                    <p>Demo password: <span className='font-semibold'>{project.password}</span></p>
+                </div>
             </div>
             <img width='400px' height='400px' src={`/assets/${project.icon}.webp`} alt={`Imagen del proyecto ${project.title}`} className='h-[400px] w-[400px] object-cover'/>
         </motion.div>

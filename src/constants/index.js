@@ -91,8 +91,10 @@ export const projects = [
         title: 'Project Management App',
         icon: 'project4',
         description: 'Efficient MERN project management app with JWT authentication and protected routes. Seamless project creation, editing, and tracking. User-friendly experience.',
-        link1: 'https://github.com/StimpyZ/administrador-proyectos-front-end',
-        link2: 'https://github.com/StimpyZ/administrador-proyectos-backend'
+        user: 'correo2@correo.com',
+        password: 'password',
+        link1: 'https://admin-projectstasks.netlify.app/',
+        link2: 'https://github.com/StimpyZ/administrador-proyectos-front-end'
     },
     {
         title: 'Django Dashboard',
