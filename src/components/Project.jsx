@@ -28,7 +28,7 @@ export default function Project ({ project, custom }) {
                 <p className='mt-7 font-opensans'>{project.description}</p>
                 <div className='flex justify-center w-full mt-4 text-center'>
                     <a href={project.link1} target='_blank' rel='noreferrer' className='bg-gradient-rainblue text-deep-blue rounded-sm py-3 font-semibold hover:bg-blue hover:text-white transition duration-500 ease-in-out w-1/2 cursor-pointer'>View demo</a>
-                    <a href={project.link1} target='_blank' rel='noreferrer' className='bg-deep-blue hover:text-red transition duration-500 flex items-center justify-center font-playfair w-1/2 text-white cursor-pointer'>View code</a>
+                    <a href={project.link2} target='_blank' rel='noreferrer' className='bg-deep-blue hover:text-red transition duration-500 flex items-center justify-center font-playfair w-1/2 text-white cursor-pointer'>View code</a>
                 </div>
                 {project.user && project.password && (
                     <div className='mt-2 text-center'>

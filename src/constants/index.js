@@ -97,11 +97,13 @@ export const projects = [
         link2: 'https://github.com/StimpyZ/administrador-proyectos-front-end'
     },
     {
-        title: 'Django Dashboard',
+        title: 'Product Hunt Clone',
         icon: 'project5',
-        description: 'Django CRM project with CRUD operations, real-time charts, and optimized performance. Skilled in Django and JavaScript web development.',
-        link1: 'https://github.com/StimpyZ/Django-dashboard',
-        link2: 'https://github.com/StimpyZ/Django-dashboard'
+        description: 'Developed Product Hunt clone with Next.js, Firebase/Firestore. Stylish UI via Tailwind CSS, user auth, secure routes. Streamlined file uploads through Firestore for seamless content sharing.',
+        user: 'correo@correo.com',
+        password: 'password',
+        link1: 'https://product-hunt-clone.netlify.app/',
+        link2: 'https://github.com/StimpyZ/product-hunt-clone'
     },
     {
         title: 'Fast Food Kiosk',
